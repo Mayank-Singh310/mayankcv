@@ -1,242 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>My Resume</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <title>Mayank Singh</title> 
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <style>
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Rubik', sans-serif;
+        }
+        .leftside {
+           
+            width: 30%;
+            height: 150vh;
+          
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding:10px;
+        }
+        .leftside .btn {
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 14px;
+            text-align: center;
+            padding: 12px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: inline-block;
+            margin-left: 110px;
+            color: #fff;
+            background-image: linear-gradient(to right, #4458dc 0%,#b3c6f8 100%), radial-gradient(circle at top left,#4458dc,#854fee);
+            border: double 2px transparent;
+            box-shadow: 0 10px 30px rgba(118,85,225,.3);
+        }
+        .leftside .btn:hover {
+            border: 2px solid #4458dc;
+            color: #222;
+            background-color: #fff;
+            box-shadow: none;
+            background-image: none;
+        }
+    </style>
 </head>
 <body>
-
-<div class="resume">
-   <div class="resume_left">
-     <div class="resume_profile">
-       <img src="C:\document\my resume\mayank.jpg" alt="profile_pic">
-     </div>
-     <div class="resume_content">
-       <div class="resume_item resume_info">
-         <div class="title">
-           <p class="bold">MAYANK SINGH</p>
-           <p class="regular">Web Designer</p>
-         </div>
-         <ul>
-           <li>
-             <div class="icon">
-               <i class="fas fa-map-signs"></i>
-             </div>
-             <div class="data">
-               GANDHI NAGAR SHUKLAGANJ <br>UNNAO, UttarPradesh
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-mobile-alt"></i>
-             </div>
-             <div class="data">
-               +91 7007189348
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-envelope"></i>
-             </div>
-             <div class="data">
-              singhmayank3101998@gmail.com<br>
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-weebly"></i>
-             </div>
-             <div class="data">
-               www.mayanksingh.com
-             </div>
-           </li>
-         </ul>
-       </div>
-       <div class="resume_item resume_skills">
-         <div class="title">
-           <p class="bold">skill's</p>
-         </div>
-         <ul>
-           <li>
-             <div class="skill_name">
-               HTML
-             </div>
-             <div class="skill_progress">
-               <span style="width: 60%;"></span>
-             </div>
-             <div class="skill_per">60%</div>
-           </li>
-           <li>
-             <div class="skill_name">
-               CSS
-             </div>
-             <div class="skill_progress">
-               <span style="width: 50%;"></span>
-             </div>
-             <div class="skill_per">50%</div>
-           </li>
-           <li>
-            <!----- <div class="skill_name">
-               SASS
-             </div>
-             <div class="skill_progress">
-               <span style="width: 90%;"></span>
-             </div>
-             <div class="skill_per">90%</div>
-           </li>----->
-           <li>
-             <div class="skill_name">
-               JS
-             </div>
-             <div class="skill_progress">
-               <span style="width: 40%;"></span>
-             </div>
-             <div class="skill_per">40%</div>
-           </li>
-           <!-----
-           <li>
-             <div class="skill_name">
-               JQUERY
-             </div>
-             <div class="skill_progress">
-               <span style="width: 88%;"></span>
-             </div>
-             <div class="skill_per">88%</div>
-           </li>----->
-         </ul>
-       </div>
-       <div class="resume_item resume_social">
-         <div class="title">
-           <p class="bold">Social</p>
-         </div>
-         <ul>
-           
-           <li>
-             <div class="icon">
-               <i class="fab fa-github-square"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Github</p>
-               <a class="semi-bold1" href="https://github.com/Mayank-Singh310"><p>MAYANK SINGH</p></a>
-
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-hackerrank"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">HackerRank</p>
-               <a class="semi-bold1" https://www.hackerrank.com/singhmayank31011"><p>@Singh310</p></a>
-
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-facebook-square"></i>
-
-             </div>
-             <div class="data">
-               <p class="semi-bold">Facebook</p>
-              <a class="semi-bold1" href="https://m.facebook.com/profile.php?ref=bookmarks"><p>MAYANK SINGH</p></a>
-
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fab fa-youtube"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Youtube</p>
-               <a class="semi-bold1" href="#"><p>MAYANK SINGH</p></a>
-
-             </div>
-           </li>
-           <li>
-             <div class="icon">
-               <i class="fas fa-file-download"></i>
-             </div>
-             <div class="data">
-               <p class="semi-bold">Download CVV</p>
-               <a class="semi-bold1" href=""><p>click here</p></a>
-
-             </div>
-           </li>
-         </ul>
-       </div>
-     </div>
-  </div>
-  <div class="resume_right">
-    <div class="resume_item resume_about">
-        <div class="title">
-           <p class="bold">About Me</p>
-         </div>
-        <p>Hello, My name is MAYANK SINGH .For the past 1 months, I've been designing webpages in HTML , CSS & JavaScript. I love what I do as every day there is something new and exciting to learn. I spend a lot of time learning new techniques.</p>
+    <div class="leftside" style="color:#c9cad0; background-color: #0c192f; float:left; margin:18px;">
+        <img src="C:\resume\mayank.jpg" style="width:150px; border-radius:50%; border: 1px solid #c9cad0;  margin-left: 95px;  margin-top: 40px;" /><br /><br />
+        <h1 style="text-align:center;font-size:250%;"><b>Mayank Singh</b></h1><br />
+        <h4 style="text-align:justify; margin-left:5%; font-size:120%;">Contact no.: +91-7007289348</h4><br />
+        <h4 style="text-align:justify; margin-left:5%;font-size:120%;">Email: mayank.2023mca1088@kiet.edu</h4><br />
+        <h4 style="text-align:justify; margin-left:5%;margin-right:5%;font-size:120%;">Address:Gandhi Nagar Shuklaganj ,Unnao.</h4><br />
+        <h4 style="text-align:justify; margin-left:5%;font-size:120%;">Date of birth: 03/10/1998</h4><br />
+        <h4 style="text-align:justify; margin-left:5%;font-size:120%;">Nationality: Indian</h4><br />
+        <h4 style="text-align:justify; margin-left:5%;font-size:120%;">Languages: English & Hindi</h4><br />
+        <a href="https://github.com/Mayank-Singh310" target="_blank" ;>
+            <img src="C:\resume\GITHUB.png" style="width:50px; margin:20px;" />
+        </a>
+        <a href=" https://www.hackerrank.com/singhmayank31011" target="_blank">
+            <img src="C:\resume\HAKER.png" style="width:50px;margin:20px;" />
+        </a>
+        <a href="https://www.linkedin.com/in/mayank-singh-a17627201/" target="_blank">
+            <img src="C:\resume\linkedin.png" style="width:50px;margin:20px;" />
+        </a>
+        <br /><br />
+        <a href="mayank singh.pdf" target="_blank"; class="btn">Download CV</a>
     </div>
-    <div class="resume_item resume_work">
-        <div class="title">
-           <p class="bold">EDUCATION</p>
-         </div>
-        <ul>
+    <br />
+        <div style="border: 1px solid black; background-color:#0c192f;color:#c9cad0;text-align:center;font-size:200%;margin:0px 18px 0px 400px;">Career Objective</div>
+        <br />
+        <p style="font-size:110%;">
+            To succeed in an environment of growth and excellence and earn a job which
+            provides me job satisfaction and <br />self-development and help me achieve personal as well as organisational goals.
+        </p><br />
+        <div style="border: 1px solid black; background-color:#0c192f;color:#c9cad0;text-align:center;font-size:200%;margin:0px 18px 0px 400px;">Academic Details</div>
+        <br />
+        <table style="width:60%;margin-left:35%;">
+            <tr style=" background-color: #d3dff5;">
+                <th style="font-size:140%;">Degree/Class</th>
+                <th style="font-size:140%;">University/Board</th>
+                <th style="font-size:140%;">Percentage/CGPA</th>
+                <th style="font-size:140%;">Year</th>
+            </tr>
+            <tr style="text-align:center;">
+                <td>BCA)</td>
+                <td>CSJMU</td>
+                <td>67.03%</td>
+                <td>2018</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>12<sup>th</sup></td>
+                <td>UP Board</td>
+                <td>75.6%</td>
+                <td>2015</td>
+            </tr>
+            <tr style="text-align:center;">
+                <td>10<sup>th</sup></td>
+                <td>UP Board</td>
+                <td>80.33%</td>
+                <td>2013</td>
+            </tr>
+        </table>
+        <br />
+        <div style="border: 1px solid black; background-color:#0c192f;color:#c9cad0;text-align:center;font-size:200%;margin:0px 18px 0px 400px;">Qualities</div>
+        <br />
+        <ul style="margin-left:35%;line-height:1.5;font-size:110%;">
+            <li>Good communication skills</li>
+            <li>Good leadership quality</li>
+            <li>Capable of working under pressure</li>
+            <li>Believe in teamwork</li>
+            <li>Never say die attitude</li>
+            <li>Fast learner</li>
+        </ul>
+        <br />
+        <div style="border: 1px solid black; background-color:#0c192f;color:#c9cad0;text-align:center;font-size:200%;margin:0px 18px 0px 400px;">Skills</div>
+        <br />
+        <ul style="margin-left:35%;line-height:1.5;font-size:110%;">
             <li>
-                <div class="date">2013 - 2015</div> 
-                <div class="info">
-                     <p class="semi-bold">2013(10<sup>th</sup>) , 2015 (12<sup>th</sup>).</p> 
-                  <p>I have completed my 10<sup>th</sup> and 12<sup>th</sup> from  S.V.M INTER COLLEGE, UNNAO. </p>
-                </div>
+                <b>Computer Skills:</b>
+                <br /><p style="margin-left:2%;">MS Office, Google Drive, Email, PowerPoint, Social media, Web enterprise system.</p>
             </li>
             <li>
-              <div class="date">2015 - 2018</div>
-              <div class="info">
-                     <p class="semi-bold">BCA.</p> 
-                  <p>I have  take my bachelors degree in Computer Applications (BCA) from COLLEGE  OF MANAGEMENT STUDIES KADAR PATARI HADHA , UNNAO.</p>
-                </div>
+                <b>Programming language:</b>
+                <br /><p style="margin-left:2%;">C and C++</p>
             </li>
             <li>
-              <div class="date">2020 - Present</div>
-              <div class="info">
-                     <p class="semi-bold">MCA.</p> 
-                  <p>Currently i am persuing MCA from the KRISHNA GROUP OF INSTITUTIONS, GAZIABAD and i am enjoying it.</p>
-                </div>
+                <b>Web Technology:</b>
+                <br /><p style="margin-left:2%;">Basic HTML and CSS</p>
             </li>
         </ul>
-    </div>
-    <div class="resume_item resume_education">
-      <div class="title">
-           <p class="bold">Work Experience</p>
-         </div>
-      <ul>
-            <li>
-                <div class="date">2020 - Present</div> 
-                <div class="info">
-                     <p class="semi-bold">Web Designing (KIET, Gziabad)</p> 
-                  <p>Learning web designing, styling web pages and learning something new daily.</p>
-                </div>
-            </li>
-            <li>
-              <div class="date">2017 - 2020</div>
-              <div class="info">
-                     <p class="semi-bold">C, C++ , JAVA</p> 
-                  <p>Learning and Working on diffrent projects with these three for past 3 years.</p>
-                </div>
-            </li>
+        <br />
+        <div style="border: 1px solid black; background-color:#0c192f;color:#c9cad0;text-align:center;font-size:200%;margin:0px 18px 0px 400px;">Declaration:</div>
+        <br />
+        <ul style="margin-left:35%;line-height:1.5;font-size:110%;">
+            <li>I do hereby declare that above given information is true to the best of my knowledge and belief.</li>
         </ul>
-    </div>
-    <div class="resume_item resume_hobby">
-      <div class="title">
-           <p class="bold">Hobby</p>
-         </div>
-       <ul>
-         <li><i class="fas fa-book"></i></li>
-         <li><i class="fas fa-gamepad"></i></li>
-         <li><i class="fas fa-music"></i></li>
-         <li><i class="fab fa-pagelines"></i></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 </body>
 </html>
